@@ -41,21 +41,27 @@ Features Used: Date, Close
 A univariate time-series forecasting structure is used to enable fair comparison between all models.
 
 ## Key Findings
-Traditional methods showed large deviations and weak forecasting accuracy.
-Machine learning models performed moderately, with LASSO showing the best performance among ML models.
-LSTM significantly outperformed all other models due to its ability to capture sequential dependencies.
-LSTM models using ReLU activation and 64–64 layer configuration provided the lowest error values.
+1. Traditional methods showed large deviations and weak forecasting accuracy.
+
+2. Machine learning models performed moderately, with LASSO showing the best performance among ML models.
+
+3. LSTM significantly outperformed all other models due to its ability to capture sequential dependencies.
+
+4. LSTM models using ReLU activation and 64–64 layer configuration provided the lowest error values.
 
 ## Why LSTM Performs Better
-Captures long-term sequential patterns in stock price data.
-Memory cell structure retains historical information.
-Learns complex non-linear relationships naturally.
-More robust to noisy data compared to linear ML models.
+1. Captures long-term sequential patterns in stock price data.
+
+2. Memory cell structure retains historical information.
+
+3. Learns complex non-linear relationships naturally.
+
+4. More robust to noisy data compared to linear ML models.
 
 ## Future Enhancements
-Potential future improvements:
-Integrating technical indicators such as RSI, EMA, MACD, Bollinger Bands
-Implementing multivariate LSTM forecasting
-Exploring GRU, BiLSTM, and Transformer-based architectures
-Hyperparameter tuning using Grid Search or Optuna
-Creating a real-time stock prediction dashboard
+
+1. Integrating technical indicators such as RSI, EMA, MACD, Bollinger Bands
+2. Implementing multivariate LSTM forecasting
+3. Exploring GRU, BiLSTM, and Transformer-based architectures
+4. Hyperparameter tuning using Grid Search or Optuna
+5. Creating a real-time stock prediction dashboard
