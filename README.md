@@ -35,9 +35,13 @@ Multi-layer architectures
 
 ## Dataset
 Source: Yahoo Finance
+
 Ticker: Microsoft (MSFT)
+
 Duration: January 2019 to May 2024
+
 Features Used: Date, Close
+
 A univariate time-series forecasting structure is used to enable fair comparison between all models.
 
 ## Key Findings
